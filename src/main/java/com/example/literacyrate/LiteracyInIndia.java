@@ -7,13 +7,15 @@ public class LiteracyInIndia {
     private Double moneySpend;
     private ArrayList<Integer> Years;
     private ArrayList<String> educationLevel;
+    private String gender;
 
 
-    public LiteracyInIndia(ArrayList<String> state, Double moneySpend, ArrayList<Integer> years, ArrayList<String> educationLevel) {
+    public LiteracyInIndia(ArrayList<String> state, Double moneySpend, ArrayList<Integer> years, ArrayList<String> educationLevel, String gender) {
         this.state = state;
         this.moneySpend = moneySpend;
         Years = years;
         this.educationLevel = educationLevel;
+        this.gender = gender;
     }
 
     public ArrayList<String> getState() {
@@ -46,5 +48,13 @@ public class LiteracyInIndia {
 
     public void setEducationLevel(ArrayList<String> educationLevel) {
         this.educationLevel = educationLevel;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 }
