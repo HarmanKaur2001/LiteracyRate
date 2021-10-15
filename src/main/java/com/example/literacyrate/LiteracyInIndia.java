@@ -1,29 +1,36 @@
 package com.example.literacyrate;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class LiteracyInIndia {
-    private ArrayList<String> state;
+    private String state;
     private Double moneySpend;
-    private ArrayList<Integer> Years;
-    private ArrayList<String> educationLevel;
+    private Integer years;
+    private String educationLevel;
     private String gender;
 
 
-    public LiteracyInIndia(ArrayList<String> state, Double moneySpend, ArrayList<Integer> years, ArrayList<String> educationLevel, String gender) {
+    public LiteracyInIndia(String state, Double moneySpend, int years, String educationLevel, String gender) {
         this.state = state;
         this.moneySpend = moneySpend;
-        Years = years;
+        this.years = years;
         this.educationLevel = educationLevel;
         this.gender = gender;
     }
 
-    public ArrayList<String> getState() {
+    public String getState() {
         return state;
     }
 
-    public void setState(ArrayList<String> state) {
+    public void setState(String state) {
+        List<String> statesName = Arrays.asList("Chandigarh", "Delhi", "Goa", "Haryana", "Himachal Pradesh", "Jammu and Kashmir", "Punjab", "Sikkim",
+                  "Uttarakhand", "Tamil Nadu", "West Bengal");
+        if(statesName.contains(state))
         this.state = state;
+        else
+            throw new IllegalArgumentException("Chose from the given states"+ state);
     }
 
     public Double getMoneySpend() {
@@ -34,19 +41,19 @@ public class LiteracyInIndia {
         this.moneySpend = moneySpend;
     }
 
-    public ArrayList<Integer> getYears() {
-        return Years;
+    public Integer getYears() {
+        return years;
     }
 
-    public void setYears(ArrayList<Integer> years) {
-        Years = years;
+    public void setYears(Integer years) {
+        years = years;
     }
 
-    public ArrayList<String> getEducationLevel() {
+    public String getEducationLevel() {
         return educationLevel;
     }
 
-    public void setEducationLevel(ArrayList<String> educationLevel) {
+    public void setEducationLevel(String educationLevel) {
         this.educationLevel = educationLevel;
     }
 
@@ -57,4 +64,12 @@ public class LiteracyInIndia {
     public void setGender(String gender) {
         this.gender = gender;
     }
+
+
+
+    public String toString()
+    {
+        return String.format("%d-%s %s $%.2f",state, moneySpend, gender,years);
+    }
 }
+
