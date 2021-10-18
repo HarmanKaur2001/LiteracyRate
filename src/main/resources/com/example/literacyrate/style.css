@@ -1,0 +1,24 @@
+.root{
+    -fx-background-color: #f2738c;
+    -fx-font-family: Akaya Kanadaka;
+    -fx-font-size: 15px;
+}
+
+#header{
+    -fx-font-size: 60px;
+    -fx-text-fill:  #80e5ff;
+}
+
+div {border-top-color: #99e6e6;}
+
+table.a {
+    table-layout: auto;
+    width: 180px;
+}
+
+table.b {
+    table-layout: fixed;
+    width: 180px;
+}
+
+

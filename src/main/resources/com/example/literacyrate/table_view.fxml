@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.literacyrate.TableViewController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.literacyrate.TableViewController">
    <children>
       <BorderPane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <center>
@@ -35,7 +35,7 @@
             </TableView>
          </center>
          <bottom>
-            <Button alignment="CENTER" contentDisplay="BOTTOM" mnemonicParsing="false" onAction="#createDataView" text="Graph View" textAlignment="RIGHT" BorderPane.alignment="CENTER">
+            <Button alignment="CENTER" contentDisplay="BOTTOM" mnemonicParsing="false" onAction="#createDataView" text="Graph View" textAlignment="RIGHT" textFill="#a13434" BorderPane.alignment="CENTER">
                <effect>
                   <Blend />
                </effect></Button>

@@ -31,14 +31,14 @@ public class DataViewController implements Initializable {
         //normally this information would come from a DB and we would loop over
         //it to create these data points
         XYChart.Series<String, Integer> data = new XYChart.Series<>();
-        data.getData().add(new XYChart.Data<>("Punjab", 672));
-        data.getData().add(new XYChart.Data<>("Haryana", 1021));
+        data.getData().add(new XYChart.Data<>("Punjab", 62));
+        data.getData().add(new XYChart.Data<>("Haryana", 102));
         data.getData().add(new XYChart.Data<>("Delhi", 282));
-        data.getData().add(new XYChart.Data<>("Tamil Nadu", 973));
+        data.getData().add(new XYChart.Data<>("Tamil Nadu", 95));
         data.getData().add(new XYChart.Data<>("Gujrat", 56));
-        data.getData().add(new XYChart.Data<>("Andhra Pradesh", 124));
+        data.getData().add(new XYChart.Data<>("Andhra Pradesh", 12));
         data.getData().add(new XYChart.Data<>("Sikkim", 67));
-        data.getData().add(new XYChart.Data<>("Jammu and Kashmir", 45));
+        data.getData().add(new XYChart.Data<>("Jammu and Kashmir", 41));
         data.getData().add(new XYChart.Data<>("Rajasthan", 78));
         data.getData().add(new XYChart.Data<>("Maharashtra", 20));
 

@@ -17,7 +17,7 @@ public class SQLGenerator {
             for (int i=1; i<=5000; i++)
             {
                 LocalDate dateSold = LocalDate.now().minusDays(rng.nextInt(1095));
-                formatter.format("INSERT INTO LiteracyDataInIndia (`State`,`Year`,`moneySpend(Rupee)`,`educationLevel`,`gender`) VALUES ('%s','%s','%s','%s', '%s',);%n",rng.nextInt(10)+1);
+                formatter.format("INSERT INTO LiteracyDataInIndia (`State`,`Year`,`moneySpend`,`educationLevel`,`gender`) VALUES ('%s','%s','%n','%s', '%s',);%n",rng.nextInt(10)+1);
             }
         }
         catch (Exception e)

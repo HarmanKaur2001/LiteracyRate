@@ -41,8 +41,8 @@ public class TableViewController implements Initializable {
         idColumn.setCellValueFactory(new PropertyValueFactory<>("Id"));
         stateColumn.setCellValueFactory(new PropertyValueFactory<>("State"));
         yearColumn.setCellValueFactory(new PropertyValueFactory<>("year"));
-        moneySpendColumn.setCellValueFactory(new PropertyValueFactory<>("Money Spend"));
-        educationLevelColumn.setCellValueFactory(new PropertyValueFactory<>("education Level"));
+        moneySpendColumn.setCellValueFactory(new PropertyValueFactory<>("moneySpend"));
+        educationLevelColumn.setCellValueFactory(new PropertyValueFactory<>("educationLevel"));
         genderColumn.setCellValueFactory(new PropertyValueFactory<>("gender"));
 
         tableView.getItems().addAll(DBUtility.getDataDetails());
