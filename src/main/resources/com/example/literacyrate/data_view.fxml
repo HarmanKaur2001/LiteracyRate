@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.literacyrate.DataViewController">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <Label text="View Data of Literacy" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Bookman Old Style" size="38.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <BarChart fx:id="barChart" BorderPane.alignment="CENTER">
+              <xAxis>
+                <CategoryAxis fx:id="dataAxis" side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis fx:id="stateAxis" side="LEFT" />
+              </yAxis>
+            </BarChart>
+         </center>
+         <bottom>
+            <Button mnemonicParsing="false" onAction="#createTableView" text="Table View" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

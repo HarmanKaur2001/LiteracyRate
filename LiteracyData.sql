@@ -12,11 +12,11 @@ CREATE TABLE LiteracyDataInIndia  (
     `gender` VARCHAR(50)
 );
 
-INSERT INTO LiteracyDataInIndia (`State`,`Year`,`moneySpend(Rupee)`,`educationLevel`,`gender`) VALUES ('Punjab',2001 ,1275000,'High School','Male');
-INSERT INTO LiteracyDataInIndia (`State`,`Year`,`moneySpend(Rupee)`,`educationLevel`,`gender`) VALUES ('haryana',2003,7544000,'Degree','Female');
-INSERT INTO LiteracyDataInIndia (`State`,`Year`,`moneySpend(Rupee)`,`educationLevel`,`gender`) VALUES ('Jammu and Kashmir',2004,7545000,'Diploma','Female');
-INSERT INTO LiteracyDataInIndia (`State`,`Year`,`moneySpend(Rupee)`,`educationLevel`,`gender`) VALUES ('Gujrat',2003,75003430,'high school','Male');
-INSERT INTO LiteracyDataInIndia (`State`,`Year`,`moneySpend(Rupee)`,`educationLevel`,`gender`) VALUES ('Madhya Pradesh',2006,7534000,'Degree','Female');
+INSERT INTO LiteracyDataInIndia (`State`,`Year`,`moneySpend(Rupee)`,`educationLevel`,`gender`) VALUES ('Punjab',2020 ,1275000,'High School','Male');
+INSERT INTO LiteracyDataInIndia (`State`,`Year`,`moneySpend(Rupee)`,`educationLevel`,`gender`) VALUES ('haryana',2020,7544000,'Degree','Female');
+INSERT INTO LiteracyDataInIndia (`State`,`Year`,`moneySpend(Rupee)`,`educationLevel`,`gender`) VALUES ('Jammu and Kashmir',2020,7545000,'Diploma','Female');
+INSERT INTO LiteracyDataInIndia (`State`,`Year`,`moneySpend(Rupee)`,`educationLevel`,`gender`) VALUES ('Gujrat',2020,75003430,'high school','Male');
+INSERT INTO LiteracyDataInIndia (`State`,`Year`,`moneySpend(Rupee)`,`educationLevel`,`gender`) VALUES ('Madhya Pradesh',2020,7534000,'Degree','Female');
 INSERT INTO LiteracyDataInIndia (`State`,`Year`,`moneySpend(Rupee)`,`educationLevel`,`gender`) VALUES ('Andhra Pradesh',2007,75077700,'high school','Male');
 INSERT INTO LiteracyDataInIndia (`State`,`Year`,`moneySpend(Rupee)`,`educationLevel`,`gender`) VALUES ('Rajasthan',2009,7500340,'high school','Male');
 INSERT INTO LiteracyDataInIndia (`State`,`Year`,`moneySpend(Rupee)`,`educationLevel`,`gender`) VALUES ('Goa',2004,750030,'high school','Female');
