@@ -41,7 +41,7 @@
                </effect></Button>
          </bottom>
          <top>
-            <Label onDragDetected="#createDataView" text="Table Data" BorderPane.alignment="CENTER">
+            <Label onDragDetected="#createDataView" text="Table Data" textFill="#4cb7b7" BorderPane.alignment="CENTER">
                <font>
                   <Font name="Elephant Italic" size="26.0" />
                </font>

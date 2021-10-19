@@ -30,7 +30,11 @@
             </BarChart>
          </center>
          <bottom>
-            <Button mnemonicParsing="false" onAction="#createTableView" text="Table View" BorderPane.alignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#createTableView" text="Table View" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Bodoni MT Bold Italic" size="17.0" />
+               </font>
+            </Button>
          </bottom>
       </BorderPane>
    </children>
