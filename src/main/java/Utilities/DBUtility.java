@@ -56,10 +56,10 @@ public class DBUtility {
         {
             while (resultSet.next())
             {
-                Integer id = resultSet.getInt("id");
+                int id = resultSet.getInt("id");
                 String state = resultSet.getString("state");
                 Double moneySpend = resultSet.getDouble("moneySpend");
-                Integer year = resultSet.getInt("year");
+                int year = resultSet.getInt("year");
                 String educationLevel = resultSet.getString("educationLevel");
                 String gender = resultSet.getString("gender");
 

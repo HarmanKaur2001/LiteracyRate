@@ -58,7 +58,7 @@ public class LiteracyInIndia {
         if(moneySpend >= 10000)
             this.moneySpend = moneySpend;
         else
-            throw new IllegalArgumentException("the money should spend more than 10000 by the goverment" + moneySpend);
+            throw new IllegalArgumentException("the money should spend more than 10000 by the government" + moneySpend);
     }
 
     public Integer getYear() {
